@@ -3,6 +3,8 @@ package metier;
 import dao.IDao;
 
 public class MetierImpl1 implements IMetier{
+//gggggggggggggggggg
+//gggggggggggggggggg
 
     private IDao dao;
 
@@ -12,5 +14,9 @@ public class MetierImpl1 implements IMetier{
     @Override
     public double calcul() {
         return dao.getValue()*3;
+//gggggggggggggggggg
+//gggggggggggggggggg
+//gggggggggggggggggg
+
     }
 }
